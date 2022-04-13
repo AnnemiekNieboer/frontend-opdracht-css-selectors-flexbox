@@ -1,0 +1,59 @@
+/* ======================================================
+   OEFENEN MET FLEXBOX
+========================================================= */
+
+/* Schrijf hier  jouw CSS! */
+
+/*<!--    OPDRACHT 2.1    -->*/
+.one {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+/*<!--    OPDRACHT 2.2    -->*/
+
+.two {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*<!--    OPDRACHT 2.3    -->*/
+
+.three, .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4em;
+    list-style-type: none;
+}
+
+/*<!--    OPDRACHT 2.4    -->*/
+
+.form-container, form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*<!--    OPDRACHT 2.5    -->*/
+
+.five {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    box-sizing: border-box;
+    flex-basis: 300px;
+}
+
+.row-1 {
+    flex-shrink: 0;
+}
+
+.row-1,
+.row-2 {
+    flex-grow: 1;
+}
